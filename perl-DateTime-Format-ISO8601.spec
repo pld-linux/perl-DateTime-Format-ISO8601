@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	DateTime
 %define	pnam	Format-ISO8601
 Summary:	DateTime::Format::ISO8601 - Parses ISO8601 formats
